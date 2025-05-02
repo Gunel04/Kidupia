@@ -1,6 +1,6 @@
 #light {
     background-color: white;
-    
+
 }
 
 #dark {
@@ -126,16 +126,20 @@
             }
         }
     }
+
     footer {
         .footer-con {
             color: white;
+
             p {
                 color: #d9d9d9;
             }
+
             ul {
-                li{
+                li {
                     a {
                         color: #d9d9d9;
+
                         &:hover {
                             color: #e94a85;
                         }
@@ -143,10 +147,13 @@
                 }
             }
         }
+
         .kidupia-demo {
             color: #d9d9d9;
+
             a {
                 color: #d9d9d9;
+
                 &:hover {
                     color: #e94a85;
                 }
@@ -161,22 +168,29 @@
 
     .second-shop {
         .left-list-part {
-            .second-list, .first-list, .third-list, .fourth-list {
+
+            .second-list,
+            .first-list,
+            .third-list,
+            .fourth-list {
                 h4 {
                     color: white;
                 }
+
                 ul {
                     li {
                         color: #d9d9d9;
                     }
                 }
             }
+
             .fourth-list {
                 button {
                     color: white;
                     border: 1px solid white;
                 }
             }
+
             .first-list {
                 ul {
                     li {
@@ -187,46 +201,55 @@
                 }
             }
         }
+
         .right-product-part {
             .card {
                 background-color: black;
                 border: 1px solid #a9a9a9;
+
                 .card-body {
                     color: #d9d9d9;
                 }
             }
         }
     }
+
     .form-div {
         color: #d9d9d9;
+
         h1 {
-             color: #d9d9d9;
+            color: #d9d9d9;
         }
     }
+
     table {
         thead {
             background-color: black;
         }
+
         tbody {
             background-color: black;
         }
     }
-    .total-price {
+
+    .total-price,
+    .lead {
         color: #d9d9d9;
+    }
+
+    .detail-title {
+        color: white;
     }
 }
 
-.lang-btn, .theme-btn {
+.lang-btn,
+.theme-btn {
     color: #e94a85;
     border: 1px solid #e94a85;
+
     &:hover {
         border: 1px solid #e94a85;
         color: white;
         background-color: #e94a85;
     }
-}
-
-
-.lead, .detail-title {
-    color: white;
 }
