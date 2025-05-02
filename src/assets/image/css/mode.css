@@ -1,0 +1,229 @@
+#light {
+    background-color: white;
+    
+}
+
+#dark {
+    background-color: #181818;
+
+    .first-header {
+
+        .user-icon,
+        .user,
+        .user-logo,
+        a {
+            color: white;
+        }
+    }
+
+    nav {
+        background-color: #181818;
+
+        ul,
+        .today-deal {
+            li {
+                a {
+
+                    color: white;
+
+                    &:hover {
+                        color: #e94a85;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2,
+    .section-3 {
+        color: white;
+    }
+
+    .product-con {
+        background-color: black;
+
+        h1 {
+            color: white;
+        }
+
+        .card {
+            background-color: #181818;
+            color: white;
+            border: 1px solid rgb(57, 57, 57);
+        }
+    }
+
+    .section-5 {
+        .first-part {
+            color: white;
+        }
+    }
+
+    .testimonial-con {
+        background-color: black;
+
+        h1 {
+            color: white;
+        }
+
+        .testimonial-slider {
+            .testimonial-slider-con {
+                .first-con {
+
+                    background-color: #181818;
+                    color: white;
+                    border: 1px solid rgb(57, 57, 57);
+
+                }
+
+                .second-con {
+                    color: white;
+                }
+
+                /* color: white; */
+            }
+        }
+    }
+
+    /* .sponsor-con {
+        a {
+            img {
+                color: red;
+
+            }
+        }
+    } */
+    .blog-con {
+        h1 {
+            color: white;
+        }
+
+        .blog-slider {
+            .second-blog-con {
+                p {
+
+                    color: white;
+                }
+
+                h5 {
+                    a {
+                        color: white;
+
+                        &:hover {
+                            color: #e94a85;
+                        }
+                    }
+                }
+
+                button {
+                    color: white;
+
+                    &:hover {
+                        color: #e94a85;
+                    }
+                }
+
+            }
+        }
+    }
+    footer {
+        .footer-con {
+            color: white;
+            p {
+                color: #d9d9d9;
+            }
+            ul {
+                li{
+                    a {
+                        color: #d9d9d9;
+                        &:hover {
+                            color: #e94a85;
+                        }
+                    }
+                }
+            }
+        }
+        .kidupia-demo {
+            color: #d9d9d9;
+            a {
+                color: #d9d9d9;
+                &:hover {
+                    color: #e94a85;
+                }
+            }
+        }
+    }
+
+    /* h1,h2,h3,h4,h5,h6, p, li {
+        color: white;
+    } */
+
+
+    .second-shop {
+        .left-list-part {
+            .second-list, .first-list, .third-list, .fourth-list {
+                h4 {
+                    color: white;
+                }
+                ul {
+                    li {
+                        color: #d9d9d9;
+                    }
+                }
+            }
+            .fourth-list {
+                button {
+                    color: white;
+                    border: 1px solid white;
+                }
+            }
+            .first-list {
+                ul {
+                    li {
+                        label {
+                            color: #d9d9d9;
+                        }
+                    }
+                }
+            }
+        }
+        .right-product-part {
+            .card {
+                background-color: black;
+                border: 1px solid #a9a9a9;
+                .card-body {
+                    color: #d9d9d9;
+                }
+            }
+        }
+    }
+    .form-div {
+        color: #d9d9d9;
+        h1 {
+             color: #d9d9d9;
+        }
+    }
+    table {
+        thead {
+            background-color: black;
+        }
+        tbody {
+            background-color: black;
+        }
+    }
+    .total-price {
+        color: #d9d9d9;
+    }
+}
+
+.lang-btn, .theme-btn {
+    color: #e94a85;
+    border: 1px solid #e94a85;
+    &:hover {
+        border: 1px solid #e94a85;
+        color: white;
+        background-color: #e94a85;
+    }
+}
+
+

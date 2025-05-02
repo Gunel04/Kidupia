@@ -1,0 +1,31 @@
+.product-con {
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 50px 0;
+    padding: 50px 0;
+    h5 {
+        color: #e94a85;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: underline;
+        margin: 0;
+
+    }
+
+    h1 {
+        color: #1e1e1e;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 30px 0;
+    }
+    .product-slider {
+        width: 98%;
+        margin: auto;
+        .product-slider-con {
+            .card {
+                /* background-color: burlywood; */
+                margin: 0 5px;
+            }
+        }
+    }
+}

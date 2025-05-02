@@ -1,0 +1,213 @@
+.card {
+    position: relative;
+    overflow: hidden;
+
+    .card-body {
+        .card-price {
+            margin-bottom: 20px;
+        }
+
+        .more-details {
+            background-color: white;
+            border: 1px solid #e94a85;
+            color: #e94a85;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: #e94a85;
+                color: white;
+            }
+        }
+
+        .add-to-cart {
+            background-color: #e94a85;
+            color: white;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #e94a85;
+                color: #e94a85;
+            }
+        }
+    }
+
+    .icons-con {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -40px;
+        top: 10px;
+        transition: 0.2s;
+
+        .icon-1,
+        .icon-2,
+        .icon-3 {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 3px;
+            transition: 0.4s;
+            color: black;
+
+            &:hover {
+                color: white;
+                background-color: #e94a85;
+            }
+
+        }
+
+    }
+
+    &:hover {
+        .icons-con {
+            right: 10px;
+        }
+    }
+}
+
+
+.first-shop {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/plugins/templatemela-plugin-kidupia/layouts/default/img/breadcumb-bkg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+
+}
+
+.second-shop {
+    /* background-color: beige; */
+    margin: 50px 0;
+    display: flex;
+
+    /* height: 500px; */
+    .left-list-part {
+        width: 20%;
+
+        .first-list {
+            border: 1px solid #cacaca;
+            padding: 20px;
+            border-radius: 10px;
+
+            ul {
+                padding-left: 0;
+                list-style: none;
+                line-height: 2;
+
+                li {
+                    label {
+                        margin-left: 8px;
+                        color: #666;
+                    }
+                }
+            }
+        }
+
+        .second-list {
+            border: 1px solid #cacaca;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+
+            ul {
+                padding-left: 0;
+                list-style: none;
+                line-height: 2;
+                .list-item {
+                
+                        color: #e94a85;
+                        font-weight: bolder;
+                
+                }
+
+                li {
+
+                    color: #666;
+                    text-decoration: none;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #e94a85;
+                        text-decoration: underline;
+                    }
+
+                }
+            }
+        }
+
+        .third-list {
+            border: 1px solid #cacaca;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+
+            .color-div {
+                width: 30px;
+                height: 30px;
+                margin: 0 7px 0 0;
+                /* background-color: blue; */
+                border-radius: 15px;
+                display: inline-block;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                transition: 0.4s;
+
+                &:hover {
+                    /* width: 20px;
+                    height: 20px; */
+                    border: 2px solid black;
+                }
+            }
+        }
+
+        .fourth-list {
+            border: 1px solid #cacaca;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+
+
+        }
+    }
+
+    .right-product-part {
+        width: 80%;
+    }
+}
+
+
+
+.back-btn {
+    background-color: #e94a85;
+    color: white;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: white;
+        color: #e94a85;
+        border: 1px solid #e94a85;
+    }
+}
+
+
+
+.list-item {
+    a {
+        color: white;
+    }
+}

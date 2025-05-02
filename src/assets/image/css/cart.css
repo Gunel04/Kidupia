@@ -1,0 +1,79 @@
+.empty-cart {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .empty {
+        font-size: 50px;
+        color: #888;
+    }
+
+    .empty-btn {
+        margin: 20px 0;
+        background-color: #e94a85;
+        border: 1px solid #e94a85;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 15px;
+        border-radius: 8px;
+        transition: 0.4s;
+
+        &:hover {
+            background-color: white;
+            border: 1px solid #e94a85;
+            color: #e94a85;
+        }
+    }
+}
+
+
+.counter-btn, .delete-btn{
+    color: #e94a85;
+    border: 1px solid #e94a85;
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    font-size: 20px;
+    transition: 0.4s;
+
+    &:hover {
+        border: 1px solid #e94a85;
+        color: white;
+        background-color: #e94a85;
+    }
+}
+
+
+.total-price {
+    margin: 25px 0;
+    font-style: italic;
+    span {
+        color: #e94a85;
+        font-style: initial;
+    }
+}
+
+
+.clear-all-btn {
+    margin: 20px 0;
+        background-color: #e94a85;
+        border: 1px solid #e94a85;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 8px;
+        transition: 0.4s;
+
+        &:hover {
+            background-color: white;
+            border: 1px solid #e94a85;
+            color: #e94a85;
+        }
+}
